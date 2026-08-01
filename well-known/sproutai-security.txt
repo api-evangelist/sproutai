@@ -1,0 +1,16 @@
+# Security Text for Sprout.ai
+# RFC 9116 Compliance
+
+# Reporting a Vulnerability
+# After reading the Security Policy, please report security issues to our Data Protection Officer
+Contact: mailto:dpo@sprout.ai
+
+# Security Policy
+# Guidelines on how to report and what is in scope
+Policy: https://sprout.ai/security-policy/ 
+
+# Expiration Date
+Expires: 2028-12-31T23:59:59Z
+
+# Preferred Languages
+Preferred-Languages: en

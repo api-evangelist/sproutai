@@ -1,0 +1,23 @@
+generated: '2026-07-21'
+method: searched
+source: https://sprout.ai/security.txt
+host: https://sprout.ai
+notes: >-
+  security.txt is published at the legacy root path /security.txt (RFC 9116
+  prefers /.well-known/security.txt, which returns 404 here). No OIDC/OAuth
+  discovery, api-catalog, or ai-plugin surface — Sprout.ai is an enterprise
+  InsurTech platform with no public self-service API.
+documents:
+- path: /security.txt
+  status: 200
+  file: sproutai-security.txt
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404

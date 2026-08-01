@@ -1,7 +1,17 @@
 aid: sproutai
 name: Sprout.ai
-description: Sprout.ai is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Sprout.ai is an AI-powered insurance claims automation platform (InsurTech)
+  that eliminates manual work in claims processing — automating routine claim
+  decisions while equipping handlers with smart tooling. Its layer combines
+  document intelligence (extracting and structuring data from claims documents,
+  reports and photos), policy validation against coverage terms, fraud and
+  anomaly detection, and end-to-end claims resolution across Health, Life &
+  Disability, Motor & Auto, Home & Property, and Commercial lines of business.
+  Sprout.ai sells to insurers and enterprise partners rather than through a
+  self-service developer program, so there is no public API, developer portal,
+  or SDK; this profile captures the company's identity and its published
+  security, privacy, and compliance posture.
 url: https://raw.githubusercontent.com/api-evangelist/sproutai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +19,30 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://sprout.ai/wp-content/uploads/2025/09/Master-View.png
 tags:
 - Company
+- Insurance
+- InsurTech
+- Claims Automation
+- Artificial Intelligence
+- Document Intelligence
+- Fraud Detection
+- Machine Learning
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +52,38 @@ maintainers:
 common:
 - type: Website
   url: https://sprout.ai/
+- type: Platform
+  url: https://sprout.ai/platform/
+- type: Blog
+  url: https://sprout.ai/blog/
+- type: BlogRSS
+  url: https://sprout.ai/feed/
+- type: Support
+  url: https://sprout.ai/contact-us/
+- type: PrivacyPolicy
+  url: https://sprout.ai/privacy-policy/
+- type: DataSecurity
+  url: https://sprout.ai/data-privacy-security/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/sproutai/
+- type: SecurityTxt
+  url: well-known/sproutai-security.txt
+- type: WellKnown
+  url: well-known/sproutai-well-known.yml
+- type: VulnerabilityDisclosure
+  url: security/sproutai-vulnerability-disclosure.yml
+- type: Security
+  url: https://sprout.ai/security-policy/
+- type: DomainSecurity
+  url: security/sproutai-domain-security.yml
+- type: TrustCenter
+  url: security/sproutai-trust-center.yml
+- type: Compliance
+  url: https://sprout.ai/data-privacy-security/
+- type: Conformance
+  url: conformance/sproutai-conformance.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 6
+  pass: local-v1
