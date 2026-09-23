@@ -1,0 +1,29 @@
+# Front Door AI Index — sproutai — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: sproutai
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: sprout.ai
+  final_host: sprout.ai
+  ownership: own
+  owner: sproutai
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 29
+  host_score: 29
+  density: 19.31
+  words: 1502
+  tiers:
+    agentic: 0
+    core: 29
+    model: 0
+  ambiguous: 12
+  top_terms:
+    AI: 28
+    intelligence: 6
+    automation: 5
+    artificial intelligence: 1
+    smart: 1
