@@ -52,8 +52,8 @@ tags:
 - Claims Automation
 - Artificial Intelligence
 - Document Intelligence
-- Fraud Detection
-- Machine-Learning
+- Fraud Prevention
+- Machine Learning
 tags_raw:
 - Company
 - Insurance
@@ -63,6 +63,7 @@ tags_raw:
 - Document Intelligence
 - Fraud Detection
 - Machine Learning
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
